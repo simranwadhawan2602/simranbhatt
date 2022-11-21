@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+}
+nav{
+    background-color: deeppink;
+}
+h1{
+    color: aliceblue;
+    width: 100px;
+}
+.flex-container{
+    display: flex;
+
+}
+li{
+    display: inline;
+    margin-left: 50px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 700;
+    transition: 2s all;   
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+.flex-item{
+    flex: 20%;
+}
+.flex-item2{
+    flex: 80%;
+}
+.slider
+{
+    height: 600px;
+    background-color: aqua;
+    animation-name: simi;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes simi{
+    from{
+        background-color: aqua;
+    }
+    to{
+        background-color: brown;
+    }
+}
+
